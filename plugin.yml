@@ -1,0 +1,17 @@
+name: StackPlugin
+version: '1.0'
+main: net.stacking.stackplugin.StackPlugin
+api-version: '1.21'
+author: Infamous Dragon
+description: A plugin that allows stacking of all items up to 64
+
+commands:
+  stack:
+    description: Stack all items in your inventory to 64
+    usage: /<command>
+    permission: stackplugin.use
+    
+permissions:
+  stackplugin.use:
+    description: Allows players to use the /stack command
+    default: op
