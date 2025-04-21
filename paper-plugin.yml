@@ -1,7 +1,0 @@
-name: StackPlugin
-version: '1.0'
-main: net.stacking.stackplugin.StackPlugin
-api-version: '1.21'
-load: STARTUP
-authors: [ Infamous Dragon ]
-description: You can stack stuff
